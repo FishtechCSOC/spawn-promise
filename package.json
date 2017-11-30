@@ -1,0 +1,45 @@
+{
+    "name": "spawn-promise",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rimraf dist/ && babel src -d dist --ignore '**/*.test.js'",
+        "test": "cyderes-ci-scripts test",
+        "lint": "cyderes-ci-scripts lint",
+        "coverage": "cyderes-ci-scripts coverage"
+    },
+    "keywords": [
+        "javascript"
+    ],
+    "author": "",
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "git+https:&#x2F;&#x2F;github.com&#x2F;FishtechCSOC&#x2F;spawn-promise.git.git"
+    },
+    "bugs": {
+        "url": "https:&#x2F;&#x2F;github.com&#x2F;FishtechCSOC&#x2F;spawn-promise.git/issues"
+    },
+    "homepage": "https:&#x2F;&#x2F;github.com&#x2F;FishtechCSOC&#x2F;spawn-promise.git#readme",
+    "dependencies": {
+        "babel-runtime": "6.x.x"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.0.2",
+        "babel-plugin-transform-runtime": "6.x.x",
+        "babel-preset-env": "^1.6.1",
+        "cyderes-ci-scripts": "git+https://github.com/FishtechCSOC/cyderes-ci-scripts.git",
+        "eslint": "^4.11.0",
+        "eslint-config-fishtech": "git+https://github.com/FishtechCSOC/eslint-config-fishtech.git",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx": "0.0.2",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "eslint-plugin-react": "^7.5.1",
+        "jest": "^21.2.1",
+        "lodash": "^4.17.4",
+        "rimraf": "^2.6.2"
+    }
+}
