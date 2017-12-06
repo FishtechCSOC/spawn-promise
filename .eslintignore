@@ -1,0 +1,6 @@
+# Don't worry about linting in test files
+**/*.test.js
+scripts
+**/__mocks__/**/*
+coverage/**/*
+dist/**/*
